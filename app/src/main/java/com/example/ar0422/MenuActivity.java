@@ -27,16 +27,17 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
 
+
 public class MenuActivity extends AppCompatActivity {
     private Animation animation;
     ImageView mImageView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         setContentView(R.layout.activity_menu);
+
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();

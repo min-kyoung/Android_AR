@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
     private Animation animation;
     ImageView mImageView;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,17 +54,13 @@ public class MainActivity extends AppCompatActivity {
         } else { // 멈춰있는 경우
             drawable.start(); // 애니메이션 동작 개시
         }
-
     }
 
     public void onClick_study(View view) {
         ImageButton go_study = (ImageButton)findViewById(R.id.go_study);
 
-        go_study.setEnabled(false);
         Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
         startActivity(intent);
-
-
     }
 
     public void onClick_game(View view) {

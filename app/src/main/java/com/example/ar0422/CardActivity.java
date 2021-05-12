@@ -80,7 +80,6 @@ public class CardActivity extends AppCompatActivity {
             drawCanvas.invalidate();
             drawCanvas.init();
         });
-
     }
 
     // Pen을 표현할 class입니다.

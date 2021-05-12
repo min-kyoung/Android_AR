@@ -20,7 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UnityPlayerActivity"/>
+        <activity android:name=".UnityPlayerActivity"
+            android:launchMode="singleTask"
+            android:process=":UnityPlayer"/>
         <activity android:name=".MenuActivity"/>
         <activity android:name=".CardActivity"/>
     </application>
